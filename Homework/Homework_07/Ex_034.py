@@ -25,7 +25,6 @@ def rhyme(str):
 
 
 phrase = 'пара-ра-рам рам-пам-папам па-ра-па-дам'
-phrase
 if rhyme(phrase):
     print('Парам пам-пам')
 else:
