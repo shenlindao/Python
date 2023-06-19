@@ -11,7 +11,6 @@
 # Вывод: Парам пам-пам
 
 
-
 def rhyme(str):
     str = str.split()
     list = []
@@ -22,7 +21,6 @@ def rhyme(str):
                 sum += 1
         list.append(sum)
     return len(list) == list.count(list[0])
-
 
 phrase = 'пара-ра-рам рам-пам-папам па-ра-па-дам'
 if rhyme(phrase):
